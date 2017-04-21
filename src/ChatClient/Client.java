@@ -90,23 +90,6 @@ public class Client {
             e.printStackTrace();
         }
     }
-    /*class incomeReader implements Runnable{
-        @Override
-        public void run(){
-            String message;
-            try{
-                while((message=(reader.readLine()))!=null){
-                    System.out.println("Message: " + message);
-                    in.setText(message);
-                    in.setText("kkk");
-                    //in.append(message);
-                    //in.append("\n");
-                }
-            }catch (IOException e){
-                e.printStackTrace();
-            }
-        }
-    }*/
     class ButPlusListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent event){
